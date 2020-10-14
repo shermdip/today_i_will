@@ -1,0 +1,17 @@
+html{
+    max-width: 100%;
+}
+body{
+    background-color: #555555;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+}
+
+#main{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#today{
+    font-size: 200%;
+}

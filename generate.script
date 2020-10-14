@@ -1,0 +1,12 @@
+function generate(){
+    $('#verb').text(verbs[ Math.floor(Math.random() * verbs.length) ]);
+    var articleBit = Math.round(Math.random());
+    if(articleBit == 0){
+        $('#article').text("a");
+        $('#object').text(aNouns[ Math.floor(Math.random() * aNouns.length) ]);
+    }
+    else{
+        $('#article').text("an");
+        $('#object').text(anNouns[ Math.floor(Math.random() * anNouns.length) ]);
+    }
+}
